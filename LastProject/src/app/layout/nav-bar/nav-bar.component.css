@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family:  Arial, sans-serif;
+}
+nav{
+    background-color: rgb(33, 57, 80);
+    width: 30%;
+    max-width: 200px;
+}
+ul{
+    list-style: none;
+
+}
+li{
+    padding: 0.5em 0;
+    width: 90%;
+    cursor: pointer;
+
+}
+.title{
+    padding: 0.5em 0.5em;
+
+}
+.account{
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+}
+li:hover{
+    border: 1px solid green;
+}
+.activ{
+    background-color: grey;
+}
