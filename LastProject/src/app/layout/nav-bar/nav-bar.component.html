@@ -1,19 +1,24 @@
 <nav>
     <div class="title">
-        To-Do
+        <img src="assets/toDoLogo.png" alt="to do logo" >
+        Tasks Manager
     </div>
-    <ul>
-        <li> <a routerLink="" routerLinkActive="activ" [routerLinkActiveOptions]='{exact:true}'>Dashboard</a></li>
-        <li><a routerLink="tasks" routerLinkActive="activ">Tasks</a></li>
-        <li><a routerLink="reminders" routerLinkActive="activ">Reminders</a></li>
-        <li><a routerLink="mypocket" routerLinkActive="activ">My Pocket</a></li>
-        <li><a routerLink="categories" routerLinkActive="activ">Categories</a></li>
-        <li><a routerLink="archive" routerLinkActive="activ">Archive</a></li>
-        <li><a routerLink="trash" routerLinkActive="activ">Trash</a></li>
-    </ul>
+    <div class="navContents">
+        <a routerLink="" routerLinkActive="activ" [routerLinkActiveOptions]='{exact:true}'><li><img src="assets/dashboard icon.png" class="icon">Dashboard</li></a>
+        <a routerLink="tasks" routerLinkActive="activ"><li><img src="assets/tasks icon.png" class="icon2">Tasks</li></a>
+        <a routerLink="reminders" routerLinkActive="active"><li><img src="assets/reminders icon.png" class="icon2">Reminders</li></a>
+        <a routerLink="mypocket" routerLinkActive="active"> <li><img src="assets/pocket icon.png" class="icon">My Pocket</li></a>
+        <a routerLink="categories" routerLinkActive="active"><li><img src="assets/category icon.png" class="icon">Categories</li></a>
+        <a routerLink="archive" routerLinkActive="active"><li><img src="assets/archive icon.png" class="icon">Archive</li></a>
+        <a routerLink="trash" routerLinkActive="active"><li><img src="assets/trash icon 4.png" class="icon">Trash</li></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <div class="account">
-        User Name
+        <img src="assets/user logo 2.png" class="icon"> User Name
     </div>
 
 </nav>
