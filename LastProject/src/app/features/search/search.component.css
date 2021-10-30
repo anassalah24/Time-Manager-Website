@@ -1,0 +1,22 @@
+.search{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.bar{
+    background-color:rgba(167, 167, 247, 0.411);
+    height: 30px;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    border: 1px solid blue;
+}
+.bar img {
+    height:30px;
+}
+input{    
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    height:30px;
+    padding-left:15px;   
+}

@@ -4,6 +4,7 @@ import { TrashTaskComponent } from './trash-task/trash-task.component';
 import { TasksMainComponent } from './tasks-main/tasks-main.component';
 import { PocketTaskComponent } from './pocket-task/pocket-task.component';
 import { TaskArchiveComponent } from './task-archive/task-archive.component';
+import { SearchComponent } from './search/search.component';
 
 
 
@@ -12,7 +13,8 @@ import { TaskArchiveComponent } from './task-archive/task-archive.component';
     TrashTaskComponent,
     TasksMainComponent,
     PocketTaskComponent,
-    TaskArchiveComponent
+    TaskArchiveComponent,
+    SearchComponent
   ],
   imports: [
     CommonModule,
@@ -22,7 +24,8 @@ import { TaskArchiveComponent } from './task-archive/task-archive.component';
     TrashTaskComponent,
     TasksMainComponent,
     PocketTaskComponent,
-    TaskArchiveComponent
+    TaskArchiveComponent,
+    SearchComponent
   ]
 })
 export class FeaturesModule { }

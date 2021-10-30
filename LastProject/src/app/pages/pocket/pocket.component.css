@@ -6,19 +6,4 @@ body{
     margin: 10px;
     background-color: white;
 }
-.search{
-    display: flex;
-    justify-content: center;
-    background-color: white;
-}
-.bar{
-    background-color:rgba(167, 167, 247, 0.411);
-    height: 30px;
-    display: flex;
-    width: 60%;
-    justify-content: center;
-    border: 1px solid blue;
-}
-.bar img {
-    height:30px;
-}
+
