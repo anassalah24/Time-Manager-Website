@@ -40,6 +40,10 @@ h2{
     justify-content:center;
     flex-direction: column;
 }
+app-tasks-main{
+    width: 70%;
+    
+}
 .create{
     border: dashed 4px rgb(184, 178, 178);
     color:rgb(184, 178, 178);

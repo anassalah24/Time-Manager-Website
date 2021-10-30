@@ -1,16 +1,27 @@
-/*.card{
-    background-color: rgb(226, 160, 160);
-    border-color: rgb(138, 16, 16);
-    border-width: 3px;
+.c{
+    margin: 30px auto;
+    width: 100%;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    font-size: 25px;
+    font-weight: 200;
+    margin: 1px solid black;
+    
 }
 .square{
     background-color: white;
-    border: 1 px solid black;
-    border-radius: 2px;
-    width: 10px;
+    border: 1px solid black;
+    margin-left:28px;
+    width: 15px;
+    height: 15px;
 }
-.card-body{
-    text-decoration: line-through;
-    color: rgb(187, 29, 29);
-    font-size: 20px;
-}*/
+.c img{
+    height: 30px;
+}
+.content{
+    margin:0 28px;
+}
