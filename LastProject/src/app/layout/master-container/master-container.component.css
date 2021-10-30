@@ -1,8 +1,9 @@
 div{
     background-color: lightgray;
-    width:86%;
+    width:87%;
     display: inline-block;
     vertical-align: top;
     position: absolute;
+    right: 0;
     top:0;
 }
