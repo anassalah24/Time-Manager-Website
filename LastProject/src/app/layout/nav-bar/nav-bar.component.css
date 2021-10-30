@@ -11,8 +11,10 @@ nav{
     height:100vh;
     border:6px solid dimgray;
     border-radius: 10px;
-    position:relative;
+    position:fixed;
+    left:0;
     top:0;
+    z-index: 100;
 }
 ul{
     list-style: none;   
