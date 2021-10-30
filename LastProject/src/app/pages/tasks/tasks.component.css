@@ -45,10 +45,29 @@ h2{
     border: dashed 4px rgb(184, 178, 178);
     color:rgb(184, 178, 178);
     width: 70%;
-    height:50px;
+    height:60px;
     padding-left: 20px;
-    line-height: 50px;
+    line-height: 60px;
+    font-size: 25px;
+    position: relative;
+}
+.create .first{
+    height: 30px;
+    position:absolute;
+    top: 15px;
+}
+.create div{
+    padding-left: 30px;
+}
+.create .second{
+    height: 30px;
+    position:absolute;
+    top: 15px;
+    left: 250px;
 }
 .create:hover{
     cursor: pointer;
+}
+.tasks{
+
 }
