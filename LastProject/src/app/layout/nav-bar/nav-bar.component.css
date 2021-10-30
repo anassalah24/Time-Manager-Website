@@ -8,7 +8,7 @@ nav{
     background-color: rgb(33, 57, 80);
     width: 30%;
     max-width: 200px;
-    height:100vh;
+    height:100%;
     border:6px solid dimgray;
     border-radius: 10px;
     position:fixed;
