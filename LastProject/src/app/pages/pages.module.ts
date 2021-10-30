@@ -7,6 +7,7 @@ import { PocketComponent } from './pocket/pocket.component';
 import { CategoryComponent } from './category/category.component';
 import { ArchiveComponent } from './archive/archive.component';
 import { TrashComponent } from './trash/trash.component';
+import { FeaturesModule } from '../features/features.module';
 
 
 
@@ -21,7 +22,7 @@ import { TrashComponent } from './trash/trash.component';
     TrashComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,FeaturesModule
   ],
   exports: [
     ArchiveComponent,
