@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { TrashTaskComponent } from './trash-task/trash-task.component';
 import { TasksMainComponent } from './tasks-main/tasks-main.component';
 import { PocketTaskComponent } from './pocket-task/pocket-task.component';
-
-
+import { TaskArchiveComponent } from './task-archive/task-archive.component';
 
 
 
@@ -12,7 +11,8 @@ import { PocketTaskComponent } from './pocket-task/pocket-task.component';
   declarations: [
     TrashTaskComponent,
     TasksMainComponent,
-    PocketTaskComponent
+    PocketTaskComponent,
+    TaskArchiveComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +21,8 @@ import { PocketTaskComponent } from './pocket-task/pocket-task.component';
   exports:[
     TrashTaskComponent,
     TasksMainComponent,
-    PocketTaskComponent
+    PocketTaskComponent,
+    TaskArchiveComponent
   ]
 })
 export class FeaturesModule { }

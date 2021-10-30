@@ -6,8 +6,8 @@
 nav{
     display:inline-block;
     background-color: rgb(33, 57, 80);
-    width: 30%;
-    max-width: 200px;
+    width: 15%;
+    max-width: 500px;
     height: 100vh;
     border:6px solid dimgray;
     border-radius: 10px;
