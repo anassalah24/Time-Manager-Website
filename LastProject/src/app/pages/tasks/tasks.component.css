@@ -39,7 +39,6 @@ h2{
     align-items:center;
     justify-content:center;
     flex-direction: column;
-    
 }
 .create{
     border: dashed 4px rgb(184, 178, 178);
@@ -67,7 +66,4 @@ h2{
 }
 .create:hover{
     cursor: pointer;
-}
-.tasks{
-
 }

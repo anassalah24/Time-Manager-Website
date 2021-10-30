@@ -1,0 +1,16 @@
+/*.card{
+    background-color: rgb(226, 160, 160);
+    border-color: rgb(138, 16, 16);
+    border-width: 3px;
+}
+.square{
+    background-color: white;
+    border: 1 px solid black;
+    border-radius: 2px;
+    width: 10px;
+}
+.card-body{
+    text-decoration: line-through;
+    color: rgb(187, 29, 29);
+    font-size: 20px;
+}*/
