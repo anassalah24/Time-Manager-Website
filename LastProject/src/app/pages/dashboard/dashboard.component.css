@@ -1,0 +1,10 @@
+#leftnote{
+    display: inline-block;
+    position: relative;
+    right: 20px;
+    border-top-right-radius:5px ;
+    border: bottom right radius 5px;
+    min-width:10px;
+    background-color:#EFC02F;
+    color:#EFC02F ;
+}
