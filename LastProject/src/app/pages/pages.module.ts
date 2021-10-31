@@ -8,6 +8,8 @@ import { CategoryComponent } from './category/category.component';
 import { ArchiveComponent } from './archive/archive.component';
 import { TrashComponent } from './trash/trash.component';
 import { FeaturesModule } from '../features/features.module';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -19,7 +21,9 @@ import { FeaturesModule } from '../features/features.module';
     PocketComponent,
     CategoryComponent,
     ArchiveComponent,
-    TrashComponent
+    TrashComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     CommonModule,FeaturesModule
@@ -31,7 +35,10 @@ import { FeaturesModule } from '../features/features.module';
     PocketComponent,
     RemindersComponent,
     TasksComponent,
-    TrashComponent
+    TrashComponent,
+    LoginComponent,
+    RegisterComponent
+    
   ]
 })
 export class PagesModule { }
