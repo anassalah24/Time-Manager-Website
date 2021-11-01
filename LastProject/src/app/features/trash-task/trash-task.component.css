@@ -1,0 +1,19 @@
+.card{
+    width: 100%;
+    background-color: rgb(226, 160, 160);
+    border-color: rgb(138, 16, 16);
+    border-width: 3px;
+}
+.card-body{
+    text-decoration: line-through;
+    color: rgb(187, 29, 29);
+    font-size: 20px;
+}
+.bullet{
+    width: 40px;
+}
+.trashcan{
+    width: 25px;
+    background-color:rgb(223, 167, 167) ;
+    float: right;
+}

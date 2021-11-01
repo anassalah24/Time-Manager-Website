@@ -1,78 +1,58 @@
-
-.card1{
-    display: inline-block;
-    position: absolute;
-    top:100%;
-    left:15%;
-    height: 460px;
-    width: 390px;
-    background-color: sandybrown;
-    border: solid 6px;
-    border-color: rgb(243, 135, 41);
-    border-radius: 50px;
+.content{
+    display: flex;
+    justify-content: center;
 }
-.card2{
-    display: inline-block;
-    position: absolute;
-    top:100%;
-    right:15%;
-    height: 460px;
-    width: 390px;
-    background-color: rgb(105, 192, 122);
-    border: solid 6px;
-    border-color: rgb(42, 182, 70);
-    border-radius: 50px;
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
 }
-.card3{
-    display: inline-block;
-    position: absolute;
-    top:230%;
-    left:15%;
-    height: 460px;
-    width: 390px;
-    background-color: rgb(244, 96, 96);
-    border: solid 6px;
-    border-color: rgb(253, 42, 42);
-    border-radius: 50px;
+.top{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
-.card4{
-    display: inline-block;
-    position: absolute;
-    top:230%;
-    right:15%;
-    height: 460px;
-    width: 390px;
-    background-color: rgb(106, 194, 252);
-    border: solid 6px;
-    border-color: rgb(3, 154, 255);
-    border-radius: 50px;
+.bottom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+    margin: 2em;
+    padding:3em;
+    min-width: 300px;
+    border: none;
+    color: black;
+}
+.picandnum{
+    display: flex;
+    flex-direction: row;
+}
+#card1{
+    background-color: rgba(255, 166, 0, 0.692);
+}
+#card2{
+    background-color: rgba(105, 192, 122, 0.753);
+}
+#card3{
+    background-color: rgba(244, 96, 96, 0.774);
+}
+#card4{
+    background-color: rgba(155, 207, 241, 0.692);
+    
 }
 
 .card1IMG{
-    position:absolute;
-    width: 180px;
-    height: 180px;
-    top: 10%;
-    right: 10%;
-
+    width: 100px;
 }
 .noincard{
+    padding-left: 1.5rem;
     display: inline-block;
-    position: absolute;
-    font-size: 150px;
-    left: 0%;
-    top:2%;
-    color: white;
-    width: 44%;
-    text-align: center;
-}
-.txtincard{
-    display: inline-block;
-    position: absolute;
     font-size: 80px;
-    bottom: 15%;
-    left: 0;
-    color: white;
+}
+
+.txtincard{
+    font-size: 40px;
     width:100%;
     text-align: center;
 }
