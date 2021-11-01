@@ -34,7 +34,7 @@ li{
     background-color:orange;
     border-bottom:6px solid dimgray;
 }
-.account{
+.login{
     padding: 0.5em 0.5em;
     cursor: pointer;
     border-top:6px solid dimgray;
@@ -42,9 +42,21 @@ li{
     font-size: 20px;
     background-color: lightseagreen;
     position: absolute;
+    bottom:8%;
+    width: 100%;   
+}
+.register{
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+    border-top:6px solid dimgray;
+    height: 8vh;
+    font-size: 20px;
+    background-color: lightseagreen;
+    position: absolute;
     bottom:0;
     width: 100%;   
 }
+
 li:hover{
     border: 3px solid cadetblue;
 }
