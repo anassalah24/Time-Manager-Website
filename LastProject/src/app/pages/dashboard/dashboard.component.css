@@ -1,0 +1,77 @@
+.card1{
+    display: inline-block;
+    position: absolute;
+    top:100%;
+    left:15%;
+    height: 460px;
+    width: 390px;
+    background-color: sandybrown;
+    border: solid 6px;
+    border-color: rgb(243, 135, 41);
+    border-radius: 50px;
+}
+.card2{
+    display: inline-block;
+    position: absolute;
+    top:100%;
+    right:15%;
+    height: 460px;
+    width: 390px;
+    background-color: rgb(105, 192, 122);
+    border: solid 6px;
+    border-color: rgb(42, 182, 70);
+    border-radius: 50px;
+}
+.card3{
+    display: inline-block;
+    position: absolute;
+    top:230%;
+    left:15%;
+    height: 460px;
+    width: 390px;
+    background-color: rgb(244, 96, 96);
+    border: solid 6px;
+    border-color: rgb(253, 42, 42);
+    border-radius: 50px;
+}
+.card4{
+    display: inline-block;
+    position: absolute;
+    top:230%;
+    right:15%;
+    height: 460px;
+    width: 390px;
+    background-color: rgb(106, 194, 252);
+    border: solid 6px;
+    border-color: rgb(3, 154, 255);
+    border-radius: 50px;
+}
+
+.card1IMG{
+    position:absolute;
+    width: 180px;
+    height: 180px;
+    top: 10%;
+    right: 10%;
+
+}
+.noincard{
+    display: inline-block;
+    position: absolute;
+    font-size: 150px;
+    left: 0%;
+    top:2%;
+    color: white;
+    width: 44%;
+    text-align: center;
+}
+.txtincard{
+    display: inline-block;
+    position: absolute;
+    font-size: 80px;
+    bottom: 15%;
+    left: 0;
+    color: white;
+    width:100%;
+    text-align: center;
+}
