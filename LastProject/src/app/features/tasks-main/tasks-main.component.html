@@ -1,16 +1,13 @@
 <div class="c">
     <div class="content">
-           <div class="square"></div>
            <div class="txt">
-               Task Name 
-
-           </div>
-
-           <img src="assets/icon.svg">
+               {{ task.name }}
+             </div>
+            <button class="complete" (click)="complete()">Done</button>
+           <button class="delete" (click)="delete()">Delete</button>
        </div>
     <div class="full-menu">
         <div class="menu">
-    
             <img src="assets/dots icon.png">
         </div>
 

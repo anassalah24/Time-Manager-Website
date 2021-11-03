@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Task } from 'src/app/task.service';
 
 @Component({
   selector: 'app-pocket-task',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pocket-task.component.css']
 })
 export class PocketTaskComponent implements OnInit {
+  @Input() task : Task = new Task("");
 
-  constructor() { }
+  constructor() {
+
+   }
 
   ngOnInit(): void {
   }

@@ -29,7 +29,6 @@ app-tasks-main{
     width: 70%;
     height:60px;
     padding-left: 20px;
-    line-height: 60px;
     font-size: 25px;
     position: relative;
 }
@@ -38,7 +37,9 @@ app-tasks-main{
     position:absolute;
     top: 15px;
 }
-.create div{
+.create .text{
+    border:none;
+    height:100%;
     padding-left: 30px;
 }
 .create .second{

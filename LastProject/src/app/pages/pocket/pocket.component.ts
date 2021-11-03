@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TaskService, Task } from 'src/app/task.service';
 
 @Component({
   selector: 'app-pocket',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pocket.component.css']
 })
 export class PocketComponent implements OnInit {
+  completedTasks : Array<Task>;
 
-  constructor() { }
+  constructor(private taskService : TaskService) { 
+    this.completedTasks = taskService.getCompleted();
+  }
 
   ngOnInit(): void {
   }

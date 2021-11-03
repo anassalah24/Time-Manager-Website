@@ -1,19 +1,14 @@
 <body>
-    <app-search></app-search>
+    
     <h2>Tasks</h2>
 
     <section class="content">
-        <div class="create">
-            <img class="first" src="assets/notes.svg">
-            <div>
-                Create new Task
-
+            <div class="create">
+                <img class="first" src="assets/notes.svg">
+                <input #name class="text" type="text" placeholder="Create new Task" (keyup.enter)="addTask(name.value)" />
+                <img class="second" src="assets/iconBW.svg">
             </div>
-            <img class="second" src="assets/iconBW.svg">
-        </div>
-
-        <app-tasks-main></app-tasks-main>
-
+        <app-tasks-main *ngFor="let task of tasks" [task]="task"></app-tasks-main>
     </section>
 
 </body>

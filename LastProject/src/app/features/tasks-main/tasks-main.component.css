@@ -44,3 +44,16 @@
 .txt{
     margin: 0 20px;
 }
+.delete{
+    background-color: #FF4433;
+    color:white;
+    border:none;
+    border-radius:6px;
+}
+.complete{
+    margin-right:10px;
+    background-color: #77FF44;
+    color:white;
+    border:none;
+    border-radius:6px;
+}

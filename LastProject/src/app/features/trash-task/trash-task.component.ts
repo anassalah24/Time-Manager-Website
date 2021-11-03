@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Task } from 'src/app/task.service';
 
 @Component({
   selector: 'app-trash-task',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./trash-task.component.css']
 })
 export class TrashTaskComponent implements OnInit {
-
-  constructor() { }
+  @Input() task: Task = new Task("");
+  
+  constructor() { 
+   
+  }
 
   ngOnInit(): void {
   }

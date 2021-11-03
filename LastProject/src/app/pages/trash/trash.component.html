@@ -1,6 +1,5 @@
 <body>
-<app-search></app-search>
-    <br><br>
+    
     <div class="card">
         <div class="card-body">
            <img src="assets/trash icon 4.png" alt="">&nbsp;&nbsp; Trash
@@ -9,11 +8,7 @@
       <br><br><br>
 
   <section class="content">
-    <app-trash-task></app-trash-task>
-    <app-trash-task></app-trash-task>
-    <app-trash-task></app-trash-task>
-    <app-trash-task></app-trash-task>
-    <app-trash-task></app-trash-task>
+    <app-trash-task *ngFor="let deleted of deletedTasks" [task]="deleted"></app-trash-task>
 
   </section>
 </body>
